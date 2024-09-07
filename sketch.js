@@ -6,8 +6,8 @@ let d1 = 20;      // diameter of the ball
 
 let x2 = 200;     // x position of the ball
 let y2 = 0;       // y position of the ball
-let x2Speed = 3;  // speed in X direction
-let y2Speed = 7; // speed in Y direction
+let x2Speed = 6;  // speed in X direction
+let y2Speed = 14; // speed in Y direction
 let d2 = 40;      // diameter of the ball
 
 function setup() {
