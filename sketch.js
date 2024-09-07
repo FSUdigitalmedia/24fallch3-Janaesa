@@ -36,7 +36,14 @@ function setup() {
 
 function draw() {
   background(0, 1000, 1000); // Changed color to light blue!
- 
+
+  // Style of the text.
+  textAlign(CENTER);
+  textSize(80);
+
+  // Display the last key pressed.
+  text(key, 50, 50);
+
   // if x hits the right side or the left side of the canvas,
   // switch directions...
   if (x1 > width || x1 < 0) {
@@ -125,6 +132,8 @@ function mouseClicked() {
     fill = 0;
   }
  //erases all circles once canvas is clicked
+
+
 }
   
     
