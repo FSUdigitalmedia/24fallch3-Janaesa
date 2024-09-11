@@ -132,6 +132,7 @@ function mouseClicked() {
     fill = 0;
   }
  //erases all circles once canvas is clicked
+ 
 
 
 }
